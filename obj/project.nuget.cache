@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "f/Fz5A9oLrB6Gko4eNeetju7hu19OE6JQxd3jGcwYbdQcHEDPv4vVgAqeWlg4L8RE6S4XwfM5ScQqn0tVbIMsg==",
+  "success": true,
+  "projectFilePath": "/Users/thaison.coderstokyogmail.com/DEV/dotnet-serverless/dotnet-serverless.csproj",
+  "expectedPackageFiles": [
+    "/Users/thaison.coderstokyogmail.com/.nuget/packages/microsoft.aspnetcore.openapi/8.0.0/microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
+    "/Users/thaison.coderstokyogmail.com/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/thaison.coderstokyogmail.com/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/thaison.coderstokyogmail.com/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/Users/thaison.coderstokyogmail.com/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/Users/thaison.coderstokyogmail.com/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/Users/thaison.coderstokyogmail.com/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
