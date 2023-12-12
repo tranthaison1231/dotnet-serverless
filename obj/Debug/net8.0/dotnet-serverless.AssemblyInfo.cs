@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dotnet-serverless")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3306dff081b3dc7d5ea67ab5cf1b88b10c6a405")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a29e349d8cd0892b9737a1d05f2ecb23f98a3d3")]
 [assembly: System.Reflection.AssemblyProductAttribute("dotnet-serverless")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dotnet-serverless")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

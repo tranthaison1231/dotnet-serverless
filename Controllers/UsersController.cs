@@ -1,14 +1,22 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace MvcMovie.Controllers
+namespace DotnetServerless.Controllers
 {
+  [ApiController]
+  [Route("[controller]")]
   public class UsersController : ControllerBase
   {
     [HttpGet]
-    [Route("users")]
     public string GetAll()
     {
       return "Get all users";
+    }
+
+    [HttpGet]
+    [Route("{id}")]
+    public string GetBy(int id)
+    {
+      return $"Get user {id}";
     }
   }
 }
