@@ -1,3 +1,4 @@
+using DotnetServerless.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DotnetServerless.Controllers
@@ -6,17 +7,34 @@ namespace DotnetServerless.Controllers
   [Route("[controller]")]
   public class UsersController : ControllerBase
   {
-    [HttpGet]
-    public string GetAll()
-    {
-      return "Get all users";
-    }
+    private List<User> users = new List<User>() {
+      new User { Id = 1, Name = "John", Email = "a@b.com" },
+    };
 
     [HttpGet]
-    [Route("{id}")]
-    public string GetBy(int id)
+    public IActionResult GetAll()
     {
-      return $"Get user {id}";
+      return Ok(users);
+    }
+
+    [HttpGet("{id}")]
+    public IActionResult GetBy(int id)
+    {
+      var user = users.FirstOrDefault(u => u.Id == id);
+      if (user == null) return NotFound("User not found");
+      return Ok(user);
+    }
+
+    [HttpPost]
+    public string Create([FromBody] User user)
+    {
+      return $"Creating a user {user.Name}";
+    }
+
+    [HttpPut("{id}")]
+    public string Update(int id)
+    {
+      return $"Update a user with {id}";
     }
   }
 }
