@@ -13,9 +13,11 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.MapGet("/ping", () => "Pong")
-.WithName("Ping")
-.WithOpenApi();
+app.MapGet("/", () => "This is a GET");
+app.MapGet("/ping", () => "Pong").WithName("Ping").WithOpenApi();
+app.MapPost("/", () => "This is a POST");
+app.MapPut("/", () => "This is a PUT");
+app.MapDelete("/", () => "This is a DELETE");
 
 app.Run();
 
