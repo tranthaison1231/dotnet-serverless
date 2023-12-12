@@ -1,5 +1,6 @@
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -13,11 +14,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.MapGet("/", () => "This is a GET");
-app.MapGet("/ping", () => "Pong").WithName("Ping").WithOpenApi();
-app.MapPost("/", () => "This is a POST");
-app.MapPut("/", () => "This is a PUT");
-app.MapDelete("/", () => "This is a DELETE");
+app.MapControllers();
 
 app.Run();
 
