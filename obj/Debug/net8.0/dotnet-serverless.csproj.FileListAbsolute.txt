@@ -31,3 +31,4 @@
 /Users/thaison.coderstokyogmail.com/DEV/dotnet-serverless/obj/Debug/net8.0/dotnet-serverless.pdb
 /Users/thaison.coderstokyogmail.com/DEV/dotnet-serverless/obj/Debug/net8.0/dotnet-serverless.genruntimeconfig.cache
 /Users/thaison.coderstokyogmail.com/DEV/dotnet-serverless/obj/Debug/net8.0/ref/dotnet-serverless.dll
+/Users/thaison.coderstokyogmail.com/DEV/dotnet-serverless/obj/Debug/net8.0/dotnet-serverless.sourcelink.json
